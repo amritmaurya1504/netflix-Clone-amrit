@@ -1,0 +1,35 @@
+.planScreen{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+}
+.planScreen:hover{
+    opacity: 1;
+}
+.planScreen button{
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #e50914;
+}
+@media(max-width : 450px){
+    .planScreen button{
+        color: #fff;
+        padding: 10px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-weight: 300;
+        background-color: #e50914;
+    }
+    .planScreen{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        opacity: 0.8;
+    }
+}

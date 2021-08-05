@@ -1,0 +1,129 @@
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background: url("https://cdn.mos.cms.futurecdn.net/98GnqFKaUMYU3GG5HxhLWZ.jpg") center no-repeat;
+    background-size: cover;
+}
+.loginScreen_logo{
+    position: fixed;
+    left: 0;
+    width: 100px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+.loginscreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    ) ;
+}
+.btn{
+    position: fixed;
+    right: 25px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+}
+/* .loginscreen_Body{
+    position: absolute;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+}*/
+.loginscreen_Body{
+    position: absolute;
+    top: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+.loginscreen_Body h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.loginscreen_Body h2{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.loginscreen_Body h3{
+    font-size: 1rem;
+    font-weight: 400;
+} 
+.loginScreen_input{
+    margin-top: 20px;
+}
+.loginScreen_input > form > input{
+    padding: 10px;
+    outline: none;
+    height: 28px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+.loginScreen_input .btn2{
+    padding: 15px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media(max-width : 450px){
+    .loginscreen_Body h1{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .loginscreen_Body h2{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .loginscreen_Body h3{
+        font-size: 0.7rem;
+        font-weight: 400;
+    } 
+    .loginScreen_input > form > input{
+        padding: 10px;
+        outline: none;
+        height: 12px;
+        width: 30%;
+        border: none;
+        max-width: 600px;
+    }
+    .loginScreen_input .btn2{
+        padding: 10px 20px;
+        font-size: 0.7rem;
+        color: #fff;
+        background-color: #e50914;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
