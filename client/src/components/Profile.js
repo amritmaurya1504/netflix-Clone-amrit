@@ -40,7 +40,7 @@ const Profile = () => {
                 return;
             }
             const options = {
-                "key": "rzp_test_uiY5t3gqDawfsr", // Enter the Key ID generated from the Dashboard
+                "key": "YOUR_KEY", // Enter the Key ID generated from the Dashboard
                 "amount": res.data.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
                 "currency": res.data.currency,
                 "name": "Netflix Subscription",
@@ -59,7 +59,7 @@ const Profile = () => {
                 "prefill": {
                     "name": "Amrit Raj",
                     "email": "Enter your Email",
-                    "contact": "9122040963"
+                    "contact": ""
                 },
             };
 
